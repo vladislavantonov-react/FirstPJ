@@ -1,0 +1,16 @@
+.classNavbar{
+  display: block;
+  border-top-width: medium;
+  border-right-width: medium;
+  border-bottom-width: medium;
+  border-left-width: medium; /* Параметры рамки */
+  padding: 20px; /* Поля вокруг текста */
+
+  &__classStart{
+    justify-content: space-between;
+  }
+  &__classOther{
+    justify-content: flex-start;
+
+  }
+}

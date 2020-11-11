@@ -1,0 +1,10 @@
+.mainCard {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: 40px 0;
+  border-radius: 10px;
+  &__img {
+    height: 100%;
+  }
+}
