@@ -25,8 +25,8 @@ const Home = () => {
 
             <Header className={styles.homeClass}/>
             <Grid container justifyContent="center">
-                {arr.map(item => {
-                    return <Grid item xs={12} md={6}>
+                {arr.map((item, key) => {
+                    return <Grid key={key} item xs={12} md={6}>
                         <ImgMediaCard title={item.title} price={item.price} img={item.img}/>
                     </Grid>
                 })}
